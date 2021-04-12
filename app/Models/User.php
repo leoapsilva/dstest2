@@ -157,6 +157,7 @@ class User extends Authenticatable
         if ($child->name == $name) {
             $spliced_array = array_splice($parent, $key, 1);
             $count = $child->parent->getChildrenCount();
+            $count = $this->getChildrenCount();
             $found = true;
         }
 
