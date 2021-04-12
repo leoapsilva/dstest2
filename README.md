@@ -56,6 +56,34 @@ On folder ```/tests/Unit``` we have a file called ```UserTest.php``` where we ca
 Also I wrote two more examples (```example0``` and ```exampleD````) to show it is scalable.
 
 
+## Future features
+
+- Build a simple way to show graphically and dinamycally when add or remove a node and calculate the children of each node. 
+  - Use a mermaid markdown language to buid graphs using some vue.js component
+  - Something like that:
+````
+graph TD
+    A((3)) --> B((2))
+    A((3)) --> C((0))
+    A((3)) --> D((0))
+    B((2)) --> E((0))
+    B((2)) --> F((1))
+    F((1)) --> G((0))
+
+classDef blue fill:#85C1E9,stroke:#333,stroke-width:0px;
+classDef orange fill:#FAD7A0,stroke:#333,stroke-width:0px;
+classDef green fill:#76D7C4 ,stroke:#333,stroke-width:0px;
+classDef purple fill:#AF7AC5,stroke:#333,stroke-width:0px;
+
+class A blue
+class B green
+class C green
+class D green
+class E orange
+class F orange
+class G purple```
+  - The markdown above can be rendered using this live editor https://mermaid-js.github.io/mermaid-live-editor
+
 ## Questions to validate
 - [#2 Validate the expected behavior when a node is removed: remove the branch or only the node an keep its children?](https://github.com/leoapsilva/dstest2/issues/2)
 - [#3 Validate what is the unique key of a node](https://github.com/leoapsilva/dstest2/issues/3)
