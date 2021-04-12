@@ -14,8 +14,9 @@ Write a class User following the recommendations above:
 
 
 ## Questions to validate
+- [#2 Validate the expected behavior when a node is removed: remove the branch or only the node an keep its children?](https://github.com/leoapsilva/dstest2/issues/2)
+- [#3 Validate what is the unique key of a node](https://github.com/leoapsilva/dstest2/issues/3)
 
-- #2
-- #3
-- #4
+# Bugs found
+- [#4 After removing a node on test example C the children count is wrong] (https://github.com/leoapsilva/dstest2/issues/4)
 
