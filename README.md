@@ -83,6 +83,8 @@ class E orange
 class F orange
 class G purple
 ```
+[![](https://mermaid.ink/img/pako:eNqNkt9qgzAUh18lpDcRFOxc55bBwBrtA2xXIzeZxj9UE4mRbZS--zJNoO0Ka67O9-N85BySAyxkySGGtWJDA94IFcCcBKHI80AQvIAtQnee9ydOEQqvxOQkXsw5zq7HOUJrFy_1HO9sNxVFx8aR8Ap8dBMHVdt1ePW4SdfZkz9qJfccr6IosnXw2Za6weHw9XxiSsVE7dw8IXES3uzWinNh1fiBxOk9uNkdJjV07t4kj5N0859rbZDM6zraLmM4TM-RnGNm93WcX_DOzgV92HPVs7Y0b3_4fQEKdcN7TiE2ZcnUnkIqjqaPTVq-fosCYq0m7kMlp7qBuGLdaGgaSqY5aZn5QL1rGZh4l9Li8QfJkb2j?type=png)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqNkt9qgzAUh18lpDcRFOxc55bBwBrtA2xXIzeZxj9UE4mRbZS--zJNoO0Ka67O9-N85BySAyxkySGGtWJDA94IFcCcBKHI80AQvIAtQnee9ydOEQqvxOQkXsw5zq7HOUJrFy_1HO9sNxVFx8aR8Ap8dBMHVdt1ePW4SdfZkz9qJfccr6IosnXw2Za6weHw9XxiSsVE7dw8IXES3uzWinNh1fiBxOk9uNkdJjV07t4kj5N0859rbZDM6zraLmM4TM-RnGNm93WcX_DOzgV92HPVs7Y0b3_4fQEKdcN7TiE2ZcnUnkIqjqaPTVq-fosCYq0m7kMlp7qBuGLdaGgaSqY5aZn5QL1rGZh4l9Li8QfJkb2j)
+
   - The markdown above can be rendered using this live editor https://mermaid-js.github.io/mermaid-live-editor
 - Validate with the customer what is the expected behavior when removing a child (see the section below)
 
